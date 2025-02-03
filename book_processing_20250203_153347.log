@@ -1,0 +1,17 @@
+2025-02-03 15:33:47,201 - INFO - Setting up proxy configuration
+2025-02-03 15:33:47,202 - INFO - Reading books_cleaned.csv file
+2025-02-03 15:33:47,258 - INFO - Successfully loaded 5197 books from CSV
+2025-02-03 15:33:47,258 - INFO - Setting up category mapping
+2025-02-03 15:33:47,258 - INFO - Mapping categories
+2025-02-03 15:33:47,259 - INFO - Loading zero-shot classification pipeline
+2025-02-03 15:33:51,597 - INFO - Successfully loaded classification pipeline
+2025-02-03 15:33:51,597 - INFO - Starting predictions for Fiction category
+2025-02-03 15:39:16,294 - INFO - Starting predictions for Nonfiction category
+2025-02-03 15:45:47,117 - INFO - Creating predictions dataframe
+2025-02-03 15:45:47,119 - INFO - Model accuracy: 0.78
+2025-02-03 15:45:47,119 - INFO - Processing missing categories
+2025-02-03 15:45:47,121 - INFO - Found 1454 books with missing categories
+2025-02-03 16:13:39,472 - INFO - Merging predictions with original dataset
+2025-02-03 16:13:39,482 - INFO - Saving final results to CSV
+2025-02-03 16:13:39,640 - INFO - Successfully saved results to books_with_categories.csv
+2025-02-03 16:13:39,640 - INFO - Processing completed successfully
